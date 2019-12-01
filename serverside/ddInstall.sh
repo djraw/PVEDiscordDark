@@ -19,29 +19,29 @@ cp /usr/share/pve-manager/index.html.tpl /usr/share/pve-manager/index.html.tpl.b
 DotSay 'Applying stylesheet..'
 echo "<link rel='stylesheet' type='text/css' href='/pve2/css/dd_style.css'>" >> /usr/share/pve-manager/index.html.tpl
 cd /usr/share/pve-manager/css
-wget -O dd_style.css https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/serverside/style.css &> /dev/null 
+wget -O dd_style.css https://raw.githubusercontent.com/djraw/PVEDiscordDark/djraw-patch-1/serverside/style.css &> /dev/null 
 DotSay 'Applied stylesheet!'
 DotSay 'Downloading images..'
 cd /usr/share/pve-manager/images
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_cephblurp.png &> /dev/null 
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_cephwhite.png &> /dev/null 
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_icon-cpu.png &> /dev/null 
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_icon-hdd.png &> /dev/null 
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_icon-ram.png &> /dev/null 
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_icon-swap.png &> /dev/null 
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_icon-cd.png &> /dev/null 
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_icon-display.png &> /dev/null 
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_icon-network.png &> /dev/null 
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_icon-cloud.png &> /dev/null 
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_icon-serial.png &> /dev/null 
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_icon-usb.png &> /dev/null 
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_icon-pci.png &> /dev/null 
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_logo.png &> /dev/null 
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_mini-bottom.png &> /dev/null 
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_mini-top.png &> /dev/null 
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_readme &> /dev/null 
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_tool-sprites.png &> /dev/null 
-wget https://github.com/Weilbyte/PVEDiscordDark/raw/master/images/dd_trigger.png &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_cephblurp.png &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_cephwhite.png &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_icon-cpu.png &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_icon-hdd.png &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_icon-ram.png &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_icon-swap.png &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_icon-cd.png &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_icon-display.png &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_icon-network.png &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_icon-cloud.png &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_icon-serial.png &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_icon-usb.png &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_icon-pci.png &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_logo.png &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_mini-bottom.png &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_mini-top.png &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_readme &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_tool-sprites.png &> /dev/null 
+wget https://github.com/djraw/PVEDiscordDark/raw/djraw-patch-1/images/dd_trigger.png &> /dev/null 
 
 DotSay 'Downloaded images!'
 Say ''
